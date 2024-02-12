@@ -5,46 +5,11 @@ class About extends React.Component {
 	constructor() {
 		super();
 		this.state = {
-			skills: [
-				{ id: 'HTML5_skill', content: 'HTML5', percentage: '80%', value: '80' },
-				{ id: 'CSS3_skill', content: 'CSS3', percentage: '75%', value: '75' },
-				{
-					id: 'JavaScript_skill',
-					content: 'JavaScript',
-					percentage: '90%',
-					value: '90'
-				},
-				{ id: 'PHP_skill', content: 'PHP', percentage: '70%', value: '70' },
-				{
-					id: 'ReactJS_skill',
-					content: 'ReactJS',
-					percentage: '80%',
-					value: '80'
-				},
-				{
-					id: 'Python_skill',
-					content: 'Python',
-					percentage: '75%',
-					value: '75'
-				},
-				{
-					id: 'VanillaJS_skill',
-					content: 'VanillaJS',
-					percentage: '85%',
-					value: '85'
-				},
-				{
-					id: 'Wordpress_skill',
-					content: 'Wordpress',
-					percentage: '80%',
-					value: '80'
-				}
-			],
 			about_me: [
 				{
 					id: 'first-p-about',
 					content:
-						'I am a Bahamian Software Engineer with a Bachelor’s of Science degree in Computer Science that I earned in 2020 from Florida Polytechnic University. Shortly after graduating I worked at a Series B Fintech Startup (Nova Credit) for ~2 years, initially remotely from Florida but I moved to San Francisco for a year to continue my work as a  Full Stack developer.  At Nova Credit I worked on the Credit Passport product that allows for international credit history to be used in the US and other destinations. During this time I contributed to the codebase primarily using Javascript/Typescript, Node, React, Express, Jest and Postgres. In particular my most recent work here involved converting the internal ‘Credit Passport’ API to a public API to allow for expansion in a multi-million dollar partnership with HSBC.'
+						'I am a Bahamian Software Engineer with a Bachelor’s of Science degree in Computer Science that I earned in 2020 from Florida Polytechnic University. Shortly after graduating, I worked at a Series B Fintech Startup (Nova Credit) for ~2 years, initially remotely from Florida but I moved to San Francisco for a year to continue my work as a  Full Stack developer.  At Nova Credit I worked on the Credit Passport product that allows for international credit history to be used in the US and other destinations. During this time I contributed to the codebase primarily using Javascript/Typescript, Node, React, Express, Jest and Postgres. In particular my most recent work here involved converting the internal ‘Credit Passport’ API to a public API to allow for expansion in a multi-million dollar partnership with HSBC.'
 				},
 				{
 					id: 'second-p-about',
