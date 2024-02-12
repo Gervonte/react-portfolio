@@ -44,12 +44,12 @@ class About extends React.Component {
 				{
 					id: 'first-p-about',
 					content:
-						'I am a Bahamian software engineer with a Bachelor’s of Science degree in Computer Science that I earned in 2020 from Florida Polytechnic University. Shortly after graduating I worked at a Series B Fintech Startup (Nova Credit) for ~2 years, initially remotely from Florida but I moved to San Francisco for a year to continue my work as a  Full Stack developer.  At Nova Credit I worked on the Credit Passport product that allows for international credit history to be used in the US and other destinations. During this time I contributed to the codebase primarily using Javascript/Typescript, Node, React, Express, Jest and Postgres. In particular my most recent work here involved converting the internal ‘Credit Passport’ API to a public API to allow for expansion in a multi-million dollar partnership with HSBC.'
+						'I am a Bahamian Software Engineer with a Bachelor’s of Science degree in Computer Science that I earned in 2020 from Florida Polytechnic University. Shortly after graduating I worked at a Series B Fintech Startup (Nova Credit) for ~2 years, initially remotely from Florida but I moved to San Francisco for a year to continue my work as a  Full Stack developer.  At Nova Credit I worked on the Credit Passport product that allows for international credit history to be used in the US and other destinations. During this time I contributed to the codebase primarily using Javascript/Typescript, Node, React, Express, Jest and Postgres. In particular my most recent work here involved converting the internal ‘Credit Passport’ API to a public API to allow for expansion in a multi-million dollar partnership with HSBC.'
 				},
 				{
 					id: 'second-p-about',
 					content:
-						'Since then I’ve returned to The Bahamas where I’ve primarily studied and honed my coding/ general software engineering skills daily through LeetCode (200+ solved), coding projects, Udemy courses and system design interview practice while looking for a new role.'
+						'Since then I’ve returned home to The Bahamas where I’ve primarily studied and honed my coding/ general software engineering skills daily through LeetCode (200+ solved), coding projects, Udemy courses and system design interview practice while looking for a new role.'
 				}
 			]
 		};
@@ -80,31 +80,8 @@ class About extends React.Component {
 												</div>
 											</div>
 										</div>
-										<div className='skill-mf'>
-											<p className='title-s'>Skill</p>
-											{this.state.skills.map(skill => {
-												return (
-													<React.Fragment key={skill.id}>
-														<span>{skill.content}</span>{' '}
-														<span className='pull-right'>
-															{skill.percentage}
-														</span>
-														<div className='progress'>
-															<div
-																className='progress-bar'
-																role='progressbar'
-																style={{ width: skill.percentage }}
-																aria-valuenow={skill.value}
-																aria-valuemin='0'
-																aria-valuemax='100'
-															></div>
-														</div>
-													</React.Fragment>
-												);
-											})}
-										</div>
 									</div>
-									<div className='col-md-6'>
+									<div className='col-md-0'>
 										<div className='about-me pt-4 pt-md-0'>
 											<div className='title-box-2'>
 												<h5 className='title-left'>About Me</h5>
