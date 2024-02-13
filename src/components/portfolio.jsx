@@ -133,41 +133,6 @@ class Portfolio extends React.Component {
 										</div>
 									</div>
 								</a>
-								<a
-									href={stock1}
-									data-lightbox='gallery-aguadeluz'
-									style={{ display: 'none' }}
-								>
-									jsx-a11y/anchor-has-content warning
-								</a>
-								<a
-									href={stock2}
-									data-lightbox='gallery-aguadeluz'
-									style={{ display: 'none' }}
-								>
-									jsx-a11y/anchor-has-content warning
-								</a>
-								<a
-									href={stock3}
-									data-lightbox='gallery-aguadeluz'
-									style={{ display: 'none' }}
-								>
-									jsx-a11y/anchor-has-content warning
-								</a>
-								<a
-									href={stock4}
-									data-lightbox='gallery-aguadeluz'
-									style={{ display: 'none' }}
-								>
-									jsx-a11y/anchor-has-content warning
-								</a>
-								<a
-									href={stock5}
-									data-lightbox='gallery-aguadeluz'
-									style={{ display: 'none' }}
-								>
-									jsx-a11y/anchor-has-content warning
-								</a>
 							</div>
 						</div>
 						<div className='col-md-12'>
