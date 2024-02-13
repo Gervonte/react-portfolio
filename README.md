@@ -2,6 +2,5 @@
 
 Built using a boilerplate from hloksomani
 
-
-Dummy-portfolio link -> https://gervonte.github.io/react-portfolio/
+Portfolio link -> https://gervonte.github.io/react-portfolio/index.html
 
