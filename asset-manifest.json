@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.1746de43.css",
-    "main.js": "/react-portfolio/static/js/main.72caf733.js",
+    "main.js": "/react-portfolio/static/js/main.a572ed2d.js",
     "static/media/earth.jpg": "/react-portfolio/static/media/earth.a08c82a61f5bf923991e.jpg",
     "static/media/Ebook Reader.png": "/react-portfolio/static/media/Ebook Reader.a2208c866fee8948c989.png",
     "static/media/Ecommerce.png": "/react-portfolio/static/media/Ecommerce.a72532c33b007c4412c1.png",
@@ -27,13 +27,13 @@
     "static/media/photo.jpeg": "/react-portfolio/static/media/photo.e6a701711fe6cbb40dc8.jpeg",
     "static/media/ionicons.woff?v=2.0.0": "/react-portfolio/static/media/ionicons.0b4ad6170d93c4aa91ee.woff",
     "static/media/Album List.png": "/react-portfolio/static/media/Album List.b0ae5246399a50ad3f91.png",
-    "static/media/Leetcode.png": "/react-portfolio/static/media/Leetcode.11fa010c6e60e58add9f.png",
+    "static/media/Leetcode.png": "/react-portfolio/static/media/Leetcode.f5ed445d6eebfc0aa9db.png",
     "index.html": "/react-portfolio/index.html",
     "main.1746de43.css.map": "/react-portfolio/static/css/main.1746de43.css.map",
-    "main.72caf733.js.map": "/react-portfolio/static/js/main.72caf733.js.map"
+    "main.a572ed2d.js.map": "/react-portfolio/static/js/main.a572ed2d.js.map"
   },
   "entrypoints": [
     "static/css/main.1746de43.css",
-    "static/js/main.72caf733.js"
+    "static/js/main.a572ed2d.js"
   ]
 }
